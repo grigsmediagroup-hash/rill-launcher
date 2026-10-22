@@ -44,3 +44,7 @@ Press Home and choose Rill, or select it under Android Settings → Home. To swi
 ## Emulator scripts
 
 The Python integration scripts require a development emulator, Python, ADB and, for gallery rendering, Pillow. They use local emulator address `127.0.0.1:5561` with private ADB port `5041`; update those paths/ports for your environment. Installation scripts assert `ro.kernel.qemu=1`. They change emulator settings and widgets. Do not use them as general phone deployment scripts.
+
+### Screenshot gallery
+
+`tools/capture-gallery.py` captures the current app on the same isolated emulator. It requires `ANDROID_SDK_ROOT` (or the default Windows SDK path), sets emulator display size/density and changes emulator themes/preferences to collect examples. It refuses non-emulator targets and never selects a default launcher. Screenshots go to `docs/images/current/`; a capture list goes under ignored `build/`.

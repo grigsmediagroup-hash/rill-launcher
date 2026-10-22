@@ -23,9 +23,13 @@ A calm, list-first home screen for older Android phones: favorites, one-handed a
 
 The included signed APK is **45,525 bytes: 44.46 KiB / 45.525 decimal KB**. “Under 45 KiB” refers to this APK, not runtime memory, installed storage or all future builds. It is not under 45,000 bytes. See the [checksum](dist/Rill-0.1.0.sha256.txt).
 
-<p align="center"><img src="docs/images/home.png" alt="Rill wallpaper home with dual clock, battery and favorites" width="280"></p>
+<table><tr>
+<td align="center"><img src="docs/images/current/amoled.png" width="240" alt="Current Rill AMOLED black theme"><br>AMOLED black</td>
+<td align="center"><img src="docs/images/current/transparent.png" width="240" alt="Current Rill transparent wallpaper theme"><br>Your wallpaper</td>
+<td align="center"><img src="docs/images/current/settings-top.png" width="240" alt="Current Rill settings"><br>Make it yours</td>
+</tr></table>
 
-Actual emulator capture from an earlier build. The final navigation gradient and grayscale icons are not pictured; see the [gallery notes](docs/SCREENSHOTS.md).
+Actual screenshots of the released APK on an Android 16 emulator. [Explore the full settings and features gallery](docs/SCREENSHOTS.md): every theme, all settings, widgets, clocks, search and icon styles. These are visual examples, not Android 6 performance measurements.
 
 ## Features
 

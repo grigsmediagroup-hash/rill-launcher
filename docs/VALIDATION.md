@@ -31,3 +31,7 @@ Recycled framework views, worker-thread queries/loading, a 64-entry icon cache a
 - Newer Android installation policy, work profiles and broader OEM coverage.
 
 External icon packs, built-in cloud weather/agenda, standalone folders, backup import/export, full transliteration and system recents transition parity are outside this preview's scope.
+
+## Current-build visual walkthrough (23 October 2026)
+
+The released APK was installed on an isolated Android 16 emulator for a settings and feature screenshot walkthrough. The current screenshot gallery records the settings panel, seven theme choices, appearance controls, widget picker, timezone chooser, search and icon styles. Capturing these screens improves visual coverage but is not a complete automated assertion suite or Android 6 certification. Phone settings were not touched. Earlier provider-hosting screenshots remain explicitly labeled historical.
