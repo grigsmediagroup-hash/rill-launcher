@@ -1,0 +1,11 @@
+build/
+dist/*.idsig
+signing/
+local.properties
+preview/
+wallpapers/
+*.jks
+*.keystore
+*.log
+__pycache__/
+.tools/
