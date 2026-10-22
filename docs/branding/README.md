@@ -10,3 +10,7 @@ The mint three-line mark echoes the launcher's existing app icon: a small list w
 The branding refresh does not change the Android APK or its icon. That binary remains the signed preview release.
 
 To apply the share image, open the repository's Settings → General → Social preview and upload `social-preview.png`. Including an image in the README does not set GitHub's social-preview image automatically.
+
+## Product showcase
+
+The README now leads with `showcase-hero.png`: a real colorful wallpaper home screen, framed beside the product headline. `showcase-navigation.png` and `showcase-customization.png` continue the demo. Screenshots live in `docs/images/showcase/`; `tools/render-showcase.py` composes the surrounding original graphics with Pillow. It preserves the entire captured screen and does not synthesize app UI. These images replace the earlier text-only banner in the README. The APK is unchanged.

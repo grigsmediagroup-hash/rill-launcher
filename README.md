@@ -1,93 +1,69 @@
+<p align="center"><img src="docs/branding/showcase-hero.png" width="100%" alt="Rill product showcase: colorful app icons over your wallpaper. A little launcher. A lot more room."></p>
+
+<p align="center"><strong>Niagara Launcher inspired. Re-engineered in the open. Under 45 KiB.</strong></p>
 <p align="center">
-  <img src="docs/branding/banner.png" alt="Rill — Less launcher. More room. Niagara Launcher inspired, under 45 KiB, Android 5+, MIT licensed." width="100%">
+<a href="https://github.com/grigsmediagroup-hash/rill-launcher/releases/download/v0.1.0/Rill-0.1.0.apk"><img alt="Download APK: 44.46 KiB" src="https://img.shields.io/badge/Download_APK-44.46_KiB-101C23?style=for-the-badge&amp;logo=android&amp;logoColor=A7E3CB&amp;labelColor=203C3B"></a>
 </p>
+<p align="center"><a href="docs/SCREENSHOTS.md">Take the tour</a> · <a href="docs/FEATURES.md">Explore the features</a> · <a href="docs/BUILDING.md">Build it yourself</a></p>
 
-<p align="center">
-  <a href="https://github.com/grigsmediagroup-hash/rill-launcher/releases/tag/v0.1.0"><img alt="Preview release 0.1.0" src="https://img.shields.io/badge/release-0.1.0_preview-A7E3CB?style=flat-square&amp;labelColor=101C23"></a>
-  <img alt="APK 44.46 KiB" src="https://img.shields.io/badge/APK-44.46_KiB-A7E3CB?style=flat-square&amp;labelColor=101C23">
-  <img alt="Android 5 and newer" src="https://img.shields.io/badge/Android-5%2B-A7E3CB?style=flat-square&amp;labelColor=101C23">
-  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-A7E3CB?style=flat-square&amp;labelColor=101C23"></a>
-</p>
+Rill gives your wallpaper room to breathe and keeps your favorite apps close. A small, native Android home screen with one-handed alphabet navigation, real widgets and just enough customization to feel like yours. **No ads. No trackers. No account. No Internet permission.**
 
-<h1 align="center">Rill · a tiny Android launcher</h1>
-<p align="center"><strong>Niagara Launcher inspired. Re-engineered in the open. Under 45 KiB.</strong><br>Native Java. Your wallpaper. Your widgets. No ads, trackers or account.</p>
+## An app list that gets out of your way
 
-<p align="center">
-  <a href="https://github.com/grigsmediagroup-hash/rill-launcher/releases/download/v0.1.0/Rill-0.1.0.apk"><img alt="Download Android APK" src="https://img.shields.io/badge/Download_APK-44.46_KiB-101C23?style=for-the-badge&amp;logo=android&amp;logoColor=A7E3CB&amp;labelColor=203C3B"></a>
-</p>
-<p align="center"><a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="docs/FEATURES.md">Features &amp; gestures</a> · <a href="docs/BUILDING.md">Build your own</a> · <a href="docs/NIAGARA-STUDY.md">Design study</a></p>
+Slide to a letter. Tap an app. Or type a few characters and put matching app names first. Favorites stay on home; the rest are a gesture away.
 
-A calm, list-first home screen for older Android phones: favorites, one-handed alphabet navigation, prefix-first search and real Android widgets. Rill is an independent open-source project inspired by Niagara Launcher's public design documentation. It is not affiliated with Niagara Launcher and includes none of its source code or assets.
+<p align="center"><img src="docs/branding/showcase-navigation.png" width="100%" alt="Real Rill app drawer and prefix-first search screens with colored icons"></p>
 
-## Small by design
+## Your wallpaper. Your kind of quiet.
 
-The included signed APK is **45,525 bytes: 44.46 KiB / 45.525 decimal KB**. “Under 45 KiB” refers to this APK, not runtime memory, installed storage or all future builds. It is not under 45,000 bytes. See the [checksum](dist/Rill-0.1.0.sha256.txt).
+Keep the original icon colors, go monochrome, or settle into pure AMOLED black. Choose transparent wallpaper, adjustable dimming or one of four gradients. The clock, battery, second time zone and text spacing fit around your day.
 
-<table><tr>
-<td align="center"><img src="docs/images/current/amoled.png" width="240" alt="Current Rill AMOLED black theme"><br>AMOLED black</td>
-<td align="center"><img src="docs/images/current/transparent.png" width="240" alt="Current Rill transparent wallpaper theme"><br>Your wallpaper</td>
-<td align="center"><img src="docs/images/current/settings-top.png" width="240" alt="Current Rill settings"><br>Make it yours</td>
-</tr></table>
+<p align="center"><img src="docs/branding/showcase-customization.png" width="100%" alt="Rill AMOLED black, colorful wallpaper home and customization settings"></p>
 
-Actual screenshots of the released APK on an Android 16 emulator. [Explore the full settings and features gallery](docs/SCREENSHOTS.md): every theme, all settings, widgets, clocks, search and icon styles. These are visual examples, not Android 6 performance measurements.
+## Useful when you need it
 
-## Features
+- **A glance, not a dashboard.** Clock, date, battery percentage and an optional second time zone.
+- **Real Android widgets.** Add them to home or an app pop-up, with stacks that keep widget gestures intact.
+- **Your favorites, your order.** Rename, hide and reorder apps with a long press.
+- **Optional notification access.** Local previews, supported actions, dismissal and compatible media controls.
+- **Small by design.** Framework Java, recycled rows, off-thread loading and a bounded icon cache.
 
-- Favorites, all apps, rename/hide/reorder and prefix-first search.
-- Finger-following alphabet marker, inward rail curve and selected-letter top alignment.
-- AMOLED black, transparent wallpaper, adjustable dimming and four gradient themes.
-- Universal grayscale app icons, with original colors available in settings.
-- Text shadows, compact search control and bottom navigation gradient.
-- Native clock, date, optional second timezone and battery percentage.
-- Real Android widgets and stacks on home and in app pop-ups.
-- Optional local notification previews/actions, swipe dismissal and compatible media controls.
-- Framework-only views, bounded icon caching and off-thread app/icon loading.
+[See the full product tour](docs/SCREENSHOTS.md) · [Every setting, with screenshots](docs/SETTINGS-GALLERY.md) · [Gesture and feature guide](docs/FEATURES.md)
 
-Grayscale covers all installed apps; it is not a custom outline icon pack. Widgets retain their provider's appearance and behavior. [Complete gesture and settings guide](docs/FEATURES.md).
+## Make room on your phone
 
-## Try it
+1. [Download the preview APK](https://github.com/grigsmediagroup-hash/rill-launcher/releases/download/v0.1.0/Rill-0.1.0.apk) and install it.
+2. Press Home and choose **Rill**, or select it in Android Settings → Home.
+3. Open **⋯** to choose your wallpaper, themes, widgets and icon style.
 
-1. Download the APK and install it. Android may ask you to allow installation from that source.
-2. Press Home and choose Rill, or select it in Android Settings → Home.
-3. Open the bottom ellipsis for themes, widgets, wallpaper, dual clock and icons.
-4. Tap apps to launch, long press to edit, slide the alphabet to navigate. Tap the magnifier or swipe up from the bottom controls to search.
+Prefer your previous launcher? Select it again in Android's Home settings. Rill never makes itself the default automatically. [Installation help](docs/BUILDING.md).
 
-Switch back using Android's Home settings. Rill does not set itself as default automatically. [Installation and troubleshooting](docs/BUILDING.md).
+The images are designed presentation panels around **real screenshots of the released APK**, captured on an Android 16 emulator. The hero shows the optional original-color icon setting; grayscale is the default. Device frames and surrounding copy are presentation graphics. No phone performance claim is implied.
 
-## Compatibility
+<details>
+<summary><strong>Compatibility, exact size and preview status</strong></summary>
 
-| Item | Status |
-| --- | --- |
-| Declared minimum | Android 5 / API 21 |
-| Primary intended target | Android 6 / API 23 |
-| Physical installation | Xperia T2 Ultra running Android 6 |
-| Emulator checks | Earlier UI/widget flows on Android 16; later polish partially checked |
-| Full Android 5 runtime verification | Pending |
-| Guaranteed every-phone compatibility or 60fps | Not claimed |
+- **APK:** 45,525 bytes / 44.46 KiB, not under 45,000 bytes. [SHA-256](dist/Rill-0.1.0.sha256.txt).
+- **Declared minimum:** Android 5 / API 21. Primarily developed for Android 6 / API 23.
+- Installed on an Xperia T2 Ultra running Android 6. Full Android 5 runtime verification and wider device testing remain pending.
+- Native widgets, notifications and system bars depend on Android version and provider/OEM behavior.
+- This is a personal passion project released as a preview; universal compatibility, zero bugs and guaranteed 60fps are not claimed.
 
-This passion project is a preview. OEM behavior and newer Android policies may affect installation, widgets and system bars. [Validation history and limits](docs/VALIDATION.md).
+[Validation history and known limits](docs/VALIDATION.md).
 
-## Build
+</details>
 
-Requires Windows PowerShell, JDK 21, Android platform 34 and build tools 36.0.0. Run `build.ps1` with explicit `-Sdk` and `-Jdk` paths. No Gradle or external app dependencies. The build creates your own local signing key; the project's private key is never published. [Build instructions](docs/BUILDING.md).
+<details>
+<summary><strong>Source, build and documentation</strong></summary>
 
-## Documentation
+Windows PowerShell, JDK 21, Android platform 34 and build tools 36.0.0. Run `build.ps1` with your `-Sdk` and `-Jdk` paths. No Gradle or third-party app dependencies. Each source build creates its own local signing key; the project's private key is excluded.
 
-- [Features and gestures](docs/FEATURES.md)
-- [Screenshots and historical recording](docs/SCREENSHOTS.md)
-- [Build and installation](docs/BUILDING.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Validation and limitations](docs/VALIDATION.md)
-- [In-depth Niagara design study](docs/NIAGARA-STUDY.md)
-- [Privacy](PRIVACY.md), [changelog](CHANGELOG.md), [contributing](CONTRIBUTING.md)
-- [Sharing and discoverability](docs/DISCOVERABILITY.md), [project icon and branding](docs/branding/README.md)
+[Build instructions](docs/BUILDING.md) · [Architecture](docs/ARCHITECTURE.md) · [Design research](docs/NIAGARA-STUDY.md) · [Privacy](PRIVACY.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Sharing](docs/DISCOVERABILITY.md)
 
-## License and credits
+</details>
 
-Original Rill code and documentation are [MIT licensed](LICENSE). Referenced products, third-party app icons, screenshot wallpaper artwork and widget UI retain their owners' rights. The study links to third-party documentation and does not relicense it. Personal wallpapers, signing keys and device logs are excluded.
+## Independent, and open
 
-## Looking for a lightweight Niagara Launcher alternative?
+Rill is an independent **Niagara Launcher inspired** project, not affiliated with Niagara Launcher. It contains none of Niagara's source code or assets. If you found us searching for “Niagra launcher,” the inspiration is Niagara; this implementation is Rill.
 
-Rill explores a similar list-first approach in a small, open-source Android 5+ launcher. It is designed around Android 6 devices, AMOLED and transparent themes, offline customization and real widget support. If you searched for “Niagra launcher,” the project inspiration is **Niagara Launcher**; Rill remains an independent implementation.
-
-Want to help? [Report a reproducible bug](https://github.com/grigsmediagroup-hash/rill-launcher/issues/new?template=bug_report.md), [read the contribution guide](CONTRIBUTING.md), or share the project link with someone who uses an older phone. A star helps you find Rill again.
+Original code, documentation and branding are [MIT licensed](LICENSE). Third-party app icons, screenshot wallpaper artwork and widget content retain their owners' rights. [Report a bug](https://github.com/grigsmediagroup-hash/rill-launcher/issues/new?template=bug_report.md) or help make a small launcher better.
