@@ -1,18 +1,29 @@
-# Rill
+<p align="center">
+  <img src="docs/branding/banner.png" alt="Rill — Less launcher. More room. Niagara Launcher inspired, under 45 KiB, Android 5+, MIT licensed." width="100%">
+</p>
 
-**Niagara Launcher inspired. Re-engineered in the open. Under 45 KiB. Built for Android 5+.**
+<p align="center">
+  <a href="https://github.com/grigsmediagroup-hash/rill-launcher/releases/tag/v0.1.0"><img alt="Preview release 0.1.0" src="https://img.shields.io/badge/release-0.1.0_preview-A7E3CB?style=flat-square&amp;labelColor=101C23"></a>
+  <img alt="APK 44.46 KiB" src="https://img.shields.io/badge/APK-44.46_KiB-A7E3CB?style=flat-square&amp;labelColor=101C23">
+  <img alt="Android 5 and newer" src="https://img.shields.io/badge/Android-5%2B-A7E3CB?style=flat-square&amp;labelColor=101C23">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-A7E3CB?style=flat-square&amp;labelColor=101C23"></a>
+</p>
 
-A tiny, open-source Android launcher with a calm vertical app list, one-handed alphabet navigation, widgets and your own wallpaper. Native Java. No ads, trackers, accounts or Internet permission.
+<h1 align="center">Rill · a tiny Android launcher</h1>
+<p align="center"><strong>Niagara Launcher inspired. Re-engineered in the open. Under 45 KiB.</strong><br>Native Java. Your wallpaper. Your widgets. No ads, trackers or account.</p>
 
-Rill is an independent project inspired by Niagara Launcher's publicly documented interaction ideas. It is not affiliated with Niagara Launcher, contains no Niagara source code or assets, and does not claim feature parity.
+<p align="center">
+  <a href="https://github.com/grigsmediagroup-hash/rill-launcher/releases/download/v0.1.0/Rill-0.1.0.apk"><img alt="Download Android APK" src="https://img.shields.io/badge/Download_APK-44.46_KiB-101C23?style=for-the-badge&amp;logo=android&amp;logoColor=A7E3CB&amp;labelColor=203C3B"></a>
+</p>
+<p align="center"><a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="docs/FEATURES.md">Features &amp; gestures</a> · <a href="docs/BUILDING.md">Build your own</a> · <a href="docs/NIAGARA-STUDY.md">Design study</a></p>
 
-[Download APK](dist/Rill-0.1.0.apk) · [Screenshots](docs/SCREENSHOTS.md) · [Features](docs/FEATURES.md) · [Build](docs/BUILDING.md) · [Design study](docs/NIAGARA-STUDY.md)
+A calm, list-first home screen for older Android phones: favorites, one-handed alphabet navigation, prefix-first search and real Android widgets. Rill is an independent open-source project inspired by Niagara Launcher's public design documentation. It is not affiliated with Niagara Launcher and includes none of its source code or assets.
 
 ## Small by design
 
 The included signed APK is **45,525 bytes: 44.46 KiB / 45.525 decimal KB**. “Under 45 KiB” refers to this APK, not runtime memory, installed storage or all future builds. It is not under 45,000 bytes. See the [checksum](dist/Rill-0.1.0.sha256.txt).
 
-![Rill home with wallpaper, dual clock and app list](docs/images/home.png)
+<p align="center"><img src="docs/images/home.png" alt="Rill wallpaper home with dual clock, battery and favorites" width="280"></p>
 
 Actual emulator capture from an earlier build. The final navigation gradient and grayscale icons are not pictured; see the [gallery notes](docs/SCREENSHOTS.md).
 
@@ -65,9 +76,14 @@ Requires Windows PowerShell, JDK 21, Android platform 34 and build tools 36.0.0.
 - [Validation and limitations](docs/VALIDATION.md)
 - [In-depth Niagara design study](docs/NIAGARA-STUDY.md)
 - [Privacy](PRIVACY.md), [changelog](CHANGELOG.md), [contributing](CONTRIBUTING.md)
+- [Sharing and discoverability](docs/DISCOVERABILITY.md), [project icon and branding](docs/branding/README.md)
 
 ## License and credits
 
 Original Rill code and documentation are [MIT licensed](LICENSE). Referenced products, third-party app icons, screenshot wallpaper artwork and widget UI retain their owners' rights. The study links to third-party documentation and does not relicense it. Personal wallpapers, signing keys and device logs are excluded.
 
-Discovery keywords: Niagara Launcher inspired, Niagra launcher alternative, open-source Android launcher, lightweight Android launcher, under 45 KiB launcher, Android 5 launcher, Android 6 launcher, minimalist launcher, AMOLED black, transparent wallpaper, monochrome icons.
+## Looking for a lightweight Niagara Launcher alternative?
+
+Rill explores a similar list-first approach in a small, open-source Android 5+ launcher. It is designed around Android 6 devices, AMOLED and transparent themes, offline customization and real widget support. If you searched for “Niagra launcher,” the project inspiration is **Niagara Launcher**; Rill remains an independent implementation.
+
+Want to help? [Report a reproducible bug](https://github.com/grigsmediagroup-hash/rill-launcher/issues/new?template=bug_report.md), [read the contribution guide](CONTRIBUTING.md), or share the project link with someone who uses an older phone. A star helps you find Rill again.
